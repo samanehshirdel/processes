@@ -1,0 +1,67 @@
+% --------------------------------------------------------------
+% This is all preamble stuff that you don't have to worry about.
+% Head down to where it says "Start here"
+% --------------------------------------------------------------
+ 
+\documentclass[12pt]{article}
+ 
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb}
+ 
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+ 
+\newenvironment{theorem}[2][Theorem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{lemma}[2][Lemma]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{exercise}[2][Exercise]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{problem}[2][Problem]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{question}[2][Question]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+\newenvironment{corollary}[2][Corollary]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{solution}{\begin{proof}[Solution]}{\end{proof}}
+ 
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+ 
+\title{PROBLEM 2 - BETA FUNCTION }
+\author{SAMANEH SHIRDEL FARIMANI\\ %replace with your name
+}
+
+\maketitle
+
+\textbf{}DEFINITION:
+\\\
+Beta Function B(x, y) can be defined in terms of the Gamma Function or several integrals, also known as Euler integral of the first kind.The Beta function is related to the Gamma function.
+\\\
+\\\
+\textbf{}ASSUMPTIONS:
+\\\
+1. All inputs of x and y are real positive numbers.
+\\\
+2. The user can change the input.
+\\\
+3.The input boundry must be the numbers that the value for (x+y-1) never becomes zero.
+\\\
+\\\
+\textbf{}REQUIREMENTS:
+\\\
+1. The System will ask the user to type two numbers in specified boundaries.
+\\\
+2. The system will show an error for out of boundry inputs.
+\\\
+3. The System will acomplish the calculations and return a real number as the result.
+
+% --------------------------------------------------------------
+%     You don't have to mess with anything below this line.
+% --------------------------------------------------------------
+ 
+\end{document}
