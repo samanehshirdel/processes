@@ -54,11 +54,11 @@ Beta Function B(x, y) can be defined in terms of the Gamma Function or several i
 \\\
 \textbf{}REQUIREMENTS:
 \\\
-1. The System will ask the user to type two numbers in specified boundaries.
+1. The System shall ask the user to type two numbers in specified boundaries.
 \\\
-2. The system will show an error for out of boundry inputs.
+2. The system shall show an error for out of boundry inputs.
 \\\
-3. The System will acomplish the calculations and return a real number as the result.
+3. The System shall acomplish the calculations and return a real number as the result.
 
 % --------------------------------------------------------------
 %     You don't have to mess with anything below this line.
